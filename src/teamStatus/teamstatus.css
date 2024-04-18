@@ -1,0 +1,38 @@
+.container-table h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  margin-bottom: 20px;
+}
+  
+.container-table table {
+  right: 100px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container-table th, td {
+border: 2px solid #130833;
+border-radius: 5px;
+padding: 8px;
+text-align: left;
+}
+.container-table th {
+background-color: #ff0000;
+border: 2px solid #ffffff;
+color: gold;
+}
+
+.container-table tr{
+background-color: #f5f5f5;
+color: #ffffff;
+font-size: larger;
+font-weight: bolder;
+transition: transform 0.3s ease-in-out;
+transform: scale(1);
+}
+.container-table tr:hover {
+background-color: #130833;
+color: gold;
+
+}

@@ -1,0 +1,130 @@
+.fix1{
+    background-image: url('logo78.png');
+    position: fixed;
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.inline1{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+.playerDiv1{
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: gold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-left: -50px; 
+    margin-top: 10px;
+}
+.stats1{
+display: inline-block;
+vertical-align: top;
+}
+.stats1 img{
+border-radius: 8px;
+border: 1px solid #ddd;
+margin-left: 5px;
+height: 320px;
+width: 1370px;
+display: inline-block;
+}
+.playerDiv1 img {
+    background-color: rgb(146, 144, 154);
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.playerDiv1 h3 {
+    font-size: larger;
+    /* font-weight: bol; */
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    border-radius: 6px ;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.container-bid{
+    position: relative;
+    background-color: rgb(31, 18, 103);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 249px;
+    left: -7px;
+    margin-top: 10px;
+    border: 1px solid #dddddd00;
+    padding: 10px 10px 0px 10px ;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    /* top: 20px; */
+    vertical-align: top;
+    /* margin-left: 200px; */
+}
+.container-bid label{
+    color: gold;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.container-bid h2{
+    background-color: #ff0000;
+    border-radius: 6px ;
+    margin-top: 0px;
+    font-size: 60px;
+}
+.container-sold{
+    margin-left: 250px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(31, 18, 103);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 100px;
+    top: -40px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #ddd;
+    padding: 10px 10px 3px 10px ;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.container-sold label{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    font-size: 40px;
+}
+.container-sold input{
+    background-color: #ff0000;
+    border-radius: 6px ;
+    font-size: 20px;
+    width: 200px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-sold button{
+    position: relative;
+    left: -30px;
+    margin-top: 9px;
+    margin-left: 63px;
+    border-radius: 7px;
+    height: 29px;
+    vertical-align: top;
+    width: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(0, 51, 255);
+}

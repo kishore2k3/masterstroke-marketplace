@@ -1,0 +1,48 @@
+/* select.css */
+
+.selectContainer{
+    position: relative;
+    top:450px;
+    text-align: center;
+    margin: 20px;
+}
+input:focus {
+    border-color: #007bff00;
+    outline: none;
+  }
+.fix{
+    background-image: url('logo1.png');
+    position: fixed;
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.selectContainer input {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    left: -3px;
+    height: 10px;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.selectContainer button {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectContainer button:hover {
+    background-color: #45a049;
+}

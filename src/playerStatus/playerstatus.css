@@ -1,0 +1,60 @@
+.playerDiv4 img {
+    background-color: gold;
+    max-width: 400px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.playerDiv4{
+    margin-top: 140px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(31, 18, 103);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+.playerDiv4 h3 {
+    font-size: medium;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    border-radius: 6px ;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.congrats{
+    margin-top: 210px;
+    margin-left: 400px;
+    background-color: rgb(31, 18, 103);
+    width: 500px;
+    padding: 1px 10px 1px 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+.congrats h1{
+    color: gold;
+    font-size: 45px;
+}
+.congrats h3{
+    color: gold;
+    font-size: 30px;
+}
+.buttonNext{
+    position: fixed;
+    left: 0px;
+    bottom: 18px;
+    border-radius: 7px;
+    height: 29px;
+    width: 1400px;
+    height: 128px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: rgba(255, 217, 0, 0);
+}
