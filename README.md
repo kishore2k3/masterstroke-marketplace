@@ -1,3 +1,3 @@
 SRC AND PUBLIC ARE REACT FILES 
 MASTERSTROKE.zip is a springboot files
-csv are data's you can directly import that to MySql
+csv files are data's about player you can directly import that to MySql
